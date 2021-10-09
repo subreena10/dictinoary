@@ -54,17 +54,11 @@
 # print(b)
 
 # a=[1,2,3]                             #list
-# i=0
 # b=[]
 # for i in range(len(a)):
-#     j=0
-#     c=[]
 #     for j in range(len(a)):
 #         if i!=j:
-#             c.append(a[i])
-#             c.append(a[j])
-#         if c not in b:
-#             b.append(c)
+#             print([a[i],a[j]])
 # print(b)
 
 # list=[[1,2,3],[4,5,6],[7,8,9]]     #indexing of nested list.
@@ -94,8 +88,7 @@
 #     j=1
 #     while j<=10:
 #         product=i*j
-#         # print(i," ", "X"'  ,j, " ",  "=",   "  " ,product,   end="  ")
-#         print(product," ",end=" ")
+#         print(i,"X",j,"=",   product)
 #         j+=1
 #     print()
 #     i=i+1
@@ -188,5 +181,24 @@
 # for i in user:
 #     dic[i]=dic.get(i,5)
 # print(dic)
+
+# a=["saloni","subreena","priya","dimple"]
+# i=0
+# b=[]
+# while i <len(a):
+#     print(len(a[i]))
+#     b.append(len(a[i]))
+#     i+=1
+# print(b)
+
+
+# i=1
+# while i<=4:
+#     j=1
+#     while j<=i:
+#         print(i,end="")
+#         j+=1
+#     print()
+#     i+=1
 
 
